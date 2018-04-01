@@ -1,0 +1,36 @@
+name: Disqus Comments
+version: 0.1.0
+description: Simple Disqus comments integration for Grav
+icon: comment
+author:
+  name: Raul E Watson
+  email: diazwatson@gmail.com
+homepage: https://github.com/diazwatson/grav-plugin-disqus-comments
+demo: http://diazwatson.com
+keywords: grav, plugin, disqus
+bugs: https://github.com/diazwatson/grav-plugin-disqus-comments/issues
+docs: https://github.com/diazwatson/grav-plugin-disqus-comments/blob/develop/README.md
+license: MIT
+
+form:
+  validation: strict
+  fields:
+    enabled:
+      type: toggle
+      label: Plugin status
+      highlight: 1
+      default: 0
+      options:
+        1: Enabled
+        0: Disabled
+      validate:
+        type: bool
+    disqus:
+      type: section
+      title: PLUGIN_DISQUS_COMMENTS.ADMIN_CONFIG_TITLE
+
+      fields:
+        shortname:
+          type: text
+          label: Shortname:
+          help: Your website shortname. This is used to uniquely identify your website on Disqus.

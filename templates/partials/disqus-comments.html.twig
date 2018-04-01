@@ -1,0 +1,26 @@
+{% set disqus = grav.twig.disqus_comments_plugin %}
+
+{% if disqus.enabled %}
+    {% if not disqus.shortname is empty %}
+        <h3>{{ 'PLUGIN_DISQUS_COMMENTS.COMMENTS'|t }}</h3>
+        <div id="disqus_thread"></div>
+        <script>
+            var disqus_config = function () {
+                this.page.url = "{{ uri.url(true) }}";
+                this.page.identifier = "{{ uri.url(false) }}";
+                this.language = "{{ html_lang }}";
+                this.page.title = "{{ page.title }}";
+            };
+
+            (function () {  // DON'T EDIT BELOW THIS LINE
+                var d = document, s = d.createElement('script');
+                s.src = 'https://{{ disqus.shortname }}.disqus.com/embed.js';
+                s.setAttribute('data-timestamp', +new Date());
+                (d.head || d.body).appendChild(s);
+            })();
+        </script>
+        <noscript>{{ 'PLEASE_ENABLE_JS'|t }}
+            <a href="https://disqus.com/?ref_noscript" rel="nofollow">{{ 'comments powered by Disqus.'|t }}</a>
+        </noscript>
+    {% endif %}
+{% endif %}

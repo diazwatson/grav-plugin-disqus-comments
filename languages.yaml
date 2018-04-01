@@ -1,0 +1,36 @@
+en:
+  PLUGIN_DISQUS_COMMENTS:
+    ADMIN_CONFIG_TITLE: Disqus Settings
+    COMMENTS: Comments
+    PLEASE_ENABLE_JS: Please enable JavaScript to view the
+    COMMENTS_POWERED_BY: comments powered by Disqus.
+de:
+  PLUGIN_DISQUS_COMMENTS:
+    ADMIN_CONFIG_TITLE: Disqus-Einstellungen
+    COMMENTS: Bemerkungen
+    PLEASE_ENABLE_JS: Bitte aktivieren Sie JavaScript, um die
+    COMMENTS_POWERED_BY: kommentare von Disqus anzeigen zu lassen.
+es:
+  PLUGIN_DISQUS_COMMENTS:
+    ADMIN_CONFIG_TITLE: Configuración de Disqus
+    COMMENTS: Comentarios
+    PLEASE_ENABLE_JS: Por favor, habilita JavaScript para ver los
+    COMMENTS_POWERED_BY: comentarios powered by Disqus.
+fr:
+  PLUGIN_DISQUS_COMMENTS:
+    ADMIN_CONFIG_TITLE: Disqus Settings
+    COMMENTS: Commentaires
+    PLEASE_ENABLE_JS: S'il vous plaît activer JavaScript pour afficher les
+    COMMENTS_POWERED_BY: commentaires alimentés par Disqus.
+ru:
+  PLUGIN_DISQUS_COMMENTS:
+    ADMIN_CONFIG_TITLE: Настройки Disqus
+    COMMENTS: Комментарии
+    PLEASE_ENABLE_JS: Пожалуйста, включите JavaScript, чтобы
+    COMMENTS_POWERED_BY: просмотреть комментарии powered by Disqus.
+it:
+  PLUGIN_DISQUS_COMMENTS:
+    ADMIN_CONFIG_TITLE: Impostazioni Disqus
+    COMMENTS: Commenti
+    PLEASE_ENABLE_JS: Si prega di abilitare JavaScript per visualizzare i
+    COMMENTS_POWERED_BY: commenti powered by Disqus.
